@@ -1,5 +1,6 @@
 Relief.io
 ==========================
+A webapp to support the coordination of disaster relief efforts.
 
 Relief.io was started during Hack4Good: Typhoon Haiyan to help with disaster relief in the Philippines, with the intent to be used in any future disaster relief efforts.
 
