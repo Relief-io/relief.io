@@ -2,7 +2,7 @@ Relief.io
 ==========================
 A webapp to support the coordination of disaster relief efforts.
 
-Relief.io was started during Hack4Good: Typhoon Haiyan to help with disaster relief in the Philippines, with the intent to be used in any future disaster relief efforts.
+Relief.io was started during Hack4Good: Typhoon Haiyan to help with disaster relief in the Philippines with the intent to be used in any future disaster relief efforts.
 
 The app is built with `nodejs`+`angular`, uses `firebase` for the sockets & has some `mongodb` examples.
 
@@ -10,11 +10,13 @@ The app is built with `nodejs`+`angular`, uses `firebase` for the sockets & has 
 
 Please help out where you can, we're happy for this repo to be the base for a bunch of projects that can all live at http://relief.io or you are free to fork it and create another site.
 
-Google Group: https://groups.google.com/forum/#!forum/relief-io
+[Google Group](https://groups.google.com/forum/#!forum/relief-io)
 
-Join in the chat here: https://www.hipchat.com/g9bBgsIwG
+Join in the chat:
+- [Relief.io Room](https://www.hipchat.com/g9e4lxExv)
+- [Hack4Good: Typhoon Haiyan](https://www.hipchat.com/g9bBgsIwG)
 
-Hackathon page: https://geekli.st/hackathon/52793a2660fb3f52d50001f8
+[Hackathon page](https://geekli.st/hackathon/52793a2660fb3f52d50001f8)
 
 Please star the repo and spread the word on twitter!
 https://twitter.com/insertcoffee/statuses/399232533910409216
