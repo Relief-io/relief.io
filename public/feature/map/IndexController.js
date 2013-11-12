@@ -173,5 +173,8 @@ app.controller( 'MapIndexController', function( $rootScope, $scope ) {
       }
     );
 
+    // Load geo with d3
     console.log('d3 = ', d3);
+
+    
 });
