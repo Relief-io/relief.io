@@ -17,6 +17,7 @@ Join in the chat:
 - [Hack4Good: Typhoon Haiyan](https://www.hipchat.com/g9bBgsIwG)
 
 [Hackathon page](https://geekli.st/hackathon/52793a2660fb3f52d50001f8)
+[Project page](https://geekli.st/hackathon/52793a2660fb3f52d50001f8/project/527cf27c93f6ab665b000051)
 
 Please star the repo and spread the word on twitter!
 https://twitter.com/insertcoffee/statuses/399232533910409216
