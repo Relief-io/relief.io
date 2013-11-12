@@ -1,19 +1,25 @@
-Hack4Good - Typhoon Haiyan
+Relief.io
 ==========================
+A webapp to support the coordination of disaster relief efforts.
 
-This is a repo for ideas, data, and code to help with disaster relief in the Philippines.
+Relief.io was started during Hack4Good: Typhoon Haiyan to help with disaster relief in the Philippines with the intent to be used in any future disaster relief efforts.
 
 The app is built with `nodejs`+`angular`, uses `firebase` for the sockets & has some `mongodb` examples.
 
 ## Contributing to the project
 
-Please help out where you can, I'm happy for this repo to be the base for a bunch of projects that can all live at http://relief.io or you are free to fork it and create another site.
+Please help out where you can, we're happy for this repo to be the base for a bunch of projects that can all live at http://relief.io or you are free to fork it and create another site.
 
-Join in the chat here: https://www.hipchat.com/g9bBgsIwG
+[Google Group](https://groups.google.com/forum/#!forum/relief-io)
 
-Hackathon page: https://geekli.st/hackathon/52793a2660fb3f52d50001f8
+Join in the chat:
+- [Relief.io Room](https://www.hipchat.com/g9e4lxExv)
+- [Hack4Good: Typhoon Haiyan](https://www.hipchat.com/g9bBgsIwG)
 
-Please star the repo and spread the word on twitter.
+[Hackathon page](https://geekli.st/hackathon/52793a2660fb3f52d50001f8)
+[Project page](https://geekli.st/hackathon/52793a2660fb3f52d50001f8/project/527cf27c93f6ab665b000051)
+
+Please star the repo and spread the word on twitter!
 https://twitter.com/insertcoffee/statuses/399232533910409216
 
 ## Setting up for development
@@ -86,7 +92,3 @@ The backend is built with `nodejs`. If you have experience with `ruby` or `PHP` 
 
 - Create a new controller in `/server/controllers` or a service in `/server/services`. (it may be easier to copy an existing one)
 - Edit `/server/app.js` in the `// Controllers` or `// Services` section to add your new feature. (it may be easier to copy an existing one)
-
-## Some Phillipines geo data files can be found here:
-
-https://github.com/coryarmbrecht/Hack4Good--Typhoon-Haiyan/tree/master/data/geo
