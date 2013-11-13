@@ -7,10 +7,10 @@ db.bind('organizations');
 
 var organization = {
 	_id: ObjectId,
-	name: 
+	name: 'Default Organization Name',
 	active: true,
-	regions: [],
-
+	regions: ['r1','r3','r5'],
+	services: ['food','shelter','medical']
 }
 
 app.get('/organizations', function(req, res, next){
