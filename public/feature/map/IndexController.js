@@ -176,5 +176,55 @@ app.controller( 'MapIndexController', function( $rootScope, $scope ) {
     // Load geo with d3
     console.log('d3 = ', d3);
 
-    
+    var svg = d3.select($scope.map.getPanes().overlayPane).append("svg"),
+    g = svg.append("g").attr("class", "leaflet-zoom-hide");
+
+    d3.json("/data/geo/regions/r3/r3.geojson", function(collection) {
+      var transform = d3.geo.transform({point: projectPoint}),
+      path = d3.geo.path().projection(transform),
+      bounds = path.bounds(collection);
+
+      var feature = g.selectAll("path")
+          .data(collection.features)
+        .enter().append("path");
+
+      $scope.map.on("viewreset", reset);
+      reset();
+
+      // Reposition the SVG to cover the features.
+      function reset() {
+        var topLeft = bounds[0],
+            bottomRight = bounds[1];
+
+        svg.attr("width", bottomRight[0] - topLeft[0])
+          .attr("height", bottomRight[1] - topLeft[1])
+          .style("left", topLeft[0] + "px")
+          .style("top", topLeft[1] + "px");
+
+        g.attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
+
+        feature.attr("d", path);
+      }
+
+      // Use Leaflet to implement a D3 geometric transformation.
+      function projectPoint(x, y) {
+        var point = $scope.map.latLngToLayerPoint(new L.LatLng(y, x));
+        this.stream.point(point.x, point.y);
+      }
+    });
+    /* TopoJSON test
+    var path = d3.geo.path();
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", 300)
+        .attr("height", 300);
+
+
+    d3.json("/data/geo/regions/r3/r3.topojson", function(error, topology) {
+      svg.selectAll("path")
+          .data(topojson.feature(topology, topology.objects.collection.geometries[0]).features)
+        .enter().append("path")
+          .attr("d", path);
+    });
+    */
 });

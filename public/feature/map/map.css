@@ -57,6 +57,18 @@ ul.nav a img {
 	position:relative;
 }
 
+
+path {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+path:hover {
+  fill: red;
+}
+
+
 @media (max-width: 480px) {
 
   #tweets {
