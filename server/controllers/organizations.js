@@ -26,12 +26,14 @@ app.get('/organizations', function(req, res, next){
 
 });
 
+/*
 app.get('/organizations/:organizationName', function(req, res) {
   db.organizations.find({},{limit:10, sort: [['_id',-1]]}).toArray(function(e, docs){
     if (e) return next(e)
     res.send(docs)
   })
 })
+*/
 
 app.post('/organizations/:organizationName', function(req, res) {
   db.organizations.insert(req.body, {}, function(e, docs){
