@@ -38,6 +38,7 @@ app.get( '/', function( req, res ){ res.render( 'index' ); });
 
 // Controllers
 require( './controllers/example' )( app );
+require( './controllers/organizations' );
 
 // Services
 require( './sockets/twitter' );
