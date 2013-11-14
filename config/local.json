@@ -3,7 +3,7 @@
   "http.port": 3000,
   "http.public": "http://localhost:3000",
   "firebase.host": "https://reliefio-dev.firebaseio.com",
-  "mongo.host": "127.0.0.1",
+  "mongo.host": "119.9.13.244",
   "mongo.port": 27017,
   "mongo.name": "hack4good"
 }

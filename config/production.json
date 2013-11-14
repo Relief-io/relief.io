@@ -3,7 +3,7 @@
   "http.port": "<-env.PORT",
   "http.public": "http://localhost:3100",
   "firebase.host": "https://reliefio.firebaseio.com",
-  "mongo.host": "10.0.1.122",
+  "mongo.host": "119.9.13.244",
   "mongo.port": 27017,
   "mongo.name": "hack4good",
   "market.syncInterval": 61000

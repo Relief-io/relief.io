@@ -5,17 +5,23 @@
 
 db.bind('organizations');
 
-/*
+/* organization object
 var organization = {
 	_id: ObjectId,
 	name: 'Default Organization Name',
 	active: true,
 	regions: ['r1','r3','r5'],
-	services: ['food','shelter','medical']
+	services: ['food','shelter','medical'],
+	url: 'http://www.orgurl.com'
 }
 */
 
 /* Use this in Mongo shell for test info
+
+mongo
+use hack4good
+create collection('organizations')
+
 db.organizations.insert({ name: 'The Philippine Red Cross', active: true, regions: ['r1','r3','r5'], services: ['food','shelter','medical'], url: 'http://www.redcross.org.ph/'})
 db.organizations.insert({ name: 'UNICEF', active: true, regions: ['r1','r3','r5'], services: ['food','shelter','medical'], url: 'https://secure.unicefusa.org/site/Donation2?df_id=16500&16500.donation=form1'})
 db.organizations.insert({ name: 'World Food Programme (WFP)', active: true, regions: ['r1','r3','r5'], services: ['food','shelter','medical'], url: 'https://secure2.convio.net/fwfp/site/Donation2;jsessionid=6567FE8838700712A5C7325B5C0F13DA.app261a?idb=1237175804&df_id=2141&2141.donation=form1&2141_donation=form1'})
@@ -36,6 +42,7 @@ db.organizations.insert({ name: 'Direct Relief', active: true, regions: ['r1','r
 db.organizations.insert({ name: 'Oxfam', active: true, regions: ['r1','r3','r5'], services: ['food','shelter','medical'], url: 'https://secure.oxfamamerica.org/site/Donation2?8300.donation=form1&df_id=8300'})
 db.organizations.insert({ name: 'Team Rubicon', active: true, regions: ['r1','r3','r5'], services: ['food','shelter','medical'], url: 'http://teamrubiconusa.org/launching-operation-seabird/'})
 db.organizations.insert({ name: 'Action Against Hunger', active: true, regions: ['r1','r3','r5'], services: ['food','shelter','medical'], url: 'http://www.actionagainsthunger.org/about'})
+
 */
 
 app.get('/organizations', function(req, res, next){
