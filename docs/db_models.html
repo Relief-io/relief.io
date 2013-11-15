@@ -6,6 +6,17 @@ Organizations:
 		Services: Array
 		url: String
 		donations: Number
+		groups: Array
+
+	// Organizations can list where their workers or groups of workers are located. Should I'm guessing this should be another query to a groups collection?
+
+Groups:
+	Group:
+		organization: ObjectID
+		workers: Array
+		region: String
+		address: String
+		loc: Array
 
 Suvivors:
 	Survivor:
@@ -23,6 +34,7 @@ Volunteers:
 		region: String
 		address: String
 		loc: Array
+
 Reports:
 	Report:
 		loc: Array
@@ -31,7 +43,7 @@ Reports:
 
 	// Type corresponds to what is reported Damage / Need / anything. This is open-ended reporting and is cleaned, sorted, and categorized automatically
 
-	
+
 Shelters:
 	Shelter:
 		name: String
