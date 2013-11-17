@@ -75,6 +75,24 @@
 
 	Can contain any type
 
+#Tweets
+	Tweet: String
+    Tags : String
+	Location_Terms : String
+	Important_words : String
+	Time : Timestamp
+    Date : Date
+    
+	Comments:
+	
+	>Here i have mentioned the use of tags which implies we store the hashtags separately
+	>Location Terms implies that if some locations have been mentioned in the tweets
+	we grep for them in the tweet and store them separately , this will help us search faster.
+	>Important words refers to words like emergency, relief , aid and other important terms that have been mentioned in the tweets that are separately grep'd so that we can search faster 
+
+
+	
+
 #Comments
 	Every type has an Area attribute.
 	
