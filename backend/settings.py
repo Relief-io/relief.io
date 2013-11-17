@@ -1,0 +1,12 @@
+CONSUMER_KEY=''
+CONSUMER_SECRET=''
+ACCESS_TOKEN=''
+ACCESS_TOKEN_SECRET=''
+
+TOPICS='#rescueph, #haiyan, #yolandaph'
+
+MONGO_USER=''
+MONGO_PWD=''
+MONGO_HOST=''
+MONGO_PORT=''
+MONGO_DB=''
