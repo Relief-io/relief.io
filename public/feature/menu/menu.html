@@ -35,6 +35,12 @@
         <li ng-class="{ active: isActive('/map')}"><a href="#/map"><i class="icon-globe">&nbsp;Map</i></a></li>
         <li ng-class="{ active: isActive('/news')}"><a href="">News</a></li>
       </ul>
+      <li ng-hide="user" ng-class="{ active: isActive('/sso')}">
+        <a href="#/sso"><i class="icon-sso"><span>&nbsp;Login</span></i></a>
+      </li>
+      <li ng-show="user" ng-class="{ active: isActive('/sso')}">
+        <a href="/logout"><i class="icon-sso"><span>&nbsp;Logout</span></i></a>
+      </li>
     <!--
     <li ng-class="{ active: isActive('/map')}">
       <a href="#/map"><i class="icon-globe"><span>&nbsp;Map</span></i></a>

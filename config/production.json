@@ -6,5 +6,13 @@
   "mongo.host": "10.0.1.122",
   "mongo.port": 27017,
   "mongo.name": "hack4good",
-  "market.syncInterval": 61000
+  "market.syncInterval": 61000,
+  "sso.facebookAppId": "570025269718907",
+  "sso.facebookAppSecret": "c57b358784848e941f6dac32c1c90a33",
+  "sso.twitterAppId": "gjf5C3YKbFb6lokNguTL0w",
+  "sso.twitterAppSecret": "Ty1aOImR0W99wVdiXuqUzdSpaZHPf20wvOWsRdVjk",
+  "sso.facebookCallbackURL": "http://localhost:3000/auth/facebook/callback",
+  "sso.twitterCallbackURL": "http://localhost:3000/auth/twitter/callback",
+  "sso.googleRealm": "http://localhost:3000/",
+  "sso.googleCallbackURL": "http://localhost:3000/auth/google/return"
 }
