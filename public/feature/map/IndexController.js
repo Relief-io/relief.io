@@ -181,8 +181,8 @@ app.controller( 'MapIndexController', function( $rootScope, $scope ) {
 
     d3.json("/data/geo/regions/r3/r3.geojson", function(collection) {
       var transform = d3.geo.transform({point: projectPoint}),
-      path = d3.geo.path().projection(transform),
-      bounds = path.bounds(collection);
+      path = d3.geo.path().projection(transform);
+
 
       var feature = g.selectAll("path")
           .data(collection.features)
@@ -193,6 +193,7 @@ app.controller( 'MapIndexController', function( $rootScope, $scope ) {
 
       // Reposition the SVG to cover the features.
       function reset() {
+        var bounds = path.bounds(collection);
         var topLeft = bounds[0],
             bottomRight = bounds[1];
 
