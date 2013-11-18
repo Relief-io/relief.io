@@ -4,7 +4,7 @@ A webapp to support the coordination of disaster relief efforts.
 
 Relief.io was started during Hack4Good: Typhoon Haiyan to help with disaster relief in the Philippines with the intent to be used in any future disaster relief efforts.
 
-The app is built with `nodejs`+`angular`, uses `firebase` for the sockets & has some `mongodb` examples.
+The app is built with `nodejs`+`angular`, uses `firebase` for the sockets and is sponsored by `ObjectRocket` for mongodb.
 
 ## Contributing to the project
 
