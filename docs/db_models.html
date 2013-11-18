@@ -1,4 +1,4 @@
-Organizations:
+##Organizations:
 	Organization:
 		name: String
 		active: Bool
@@ -8,9 +8,10 @@ Organizations:
 		donations: Number
 		groups: Array
 
-	// Organizations can list where their workers or groups of workers are located. Should I'm guessing this should be another query to a groups collection?
+	 Organizations can list where their workers or groups of workers are located. 
+     Should I'm guessing this should be another query to a groups collection?
 
-Groups:
+##Groups:
 	Group:
 		organization: ObjectID
 		workers: Array
@@ -18,7 +19,7 @@ Groups:
 		address: String
 		loc: Array
 
-Suvivors:
+##Suvivors:
 	Survivor:
 		name: String
 		region: String
@@ -27,7 +28,7 @@ Suvivors:
 		found: Bool
 		donations: Number
 
-Volunteers:
+##Volunteers:
 	Volunteer:
 		name: String
 		active: Bool
@@ -35,16 +36,16 @@ Volunteers:
 		address: String
 		loc: Array
 
-Reports:
+##Reports:
 	Report:
 		loc: Array
 		type:
+       
+	   Type corresponds to what is reported 
+	   Damage / Need / anything. This is open-ended reporting and is cleaned, sorted, and categorized automatically
 
 
-	// Type corresponds to what is reported Damage / Need / anything. This is open-ended reporting and is cleaned, sorted, and categorized automatically
-
-
-Shelters:
+#Shelters:
 	Shelter:
 		name: String
 		active: Bool
@@ -53,7 +54,7 @@ Shelters:
 		loc: Array
 		donations: Number
 
-Foods:
+#Foods:
 	Food:
 		name: String
 		region: String
@@ -61,22 +62,23 @@ Foods:
 		loc: Array
 		donations: Number
 
-Medical:
+#Medical:
 	name: String
 	region: String
 	address: String
 	loc: Array
 	type: Array
 
-Regions
+#Regions
 	Region: String
 	geo: Polygon
 
 	Can contain any type
 
-Every type has an Area attribute.
-
-Reason for separating Region, Address, and Location is do to querying and information given. If a region is listed, there is no need to search the Location against the Region collection. A Location attribute is for map display.
-
-I don't think we should store objects within each Region. Once the object type is queried against and placed within a region, it will become listed within its attribute. So there will only be 17 documents (objects) within the Regions collection. We can then create an index on each region attribute on every object.
+#Comments
+	Every type has an Area attribute.
+	
+	Reason for separating Region, Address, and Location is do to querying and information given. If a region is listed, there is no need to search the Location against the Region collection. A Location attribute is for map display.
+	
+	I don't think we should store objects within each Region. Once the object type is queried against and placed within a region, it will become listed within its attribute. So there will only be 17 documents (objects) within the Regions collection. We can then create an index on each region attribute on every object.
 
