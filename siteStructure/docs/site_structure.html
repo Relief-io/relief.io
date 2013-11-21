@@ -1,0 +1,122 @@
+Navigation:
+	Find Aid:
+		Help Me
+		Survivors
+		Organizations
+
+	Give Aid:
+		Donate
+		Volunteer
+		Report
+		Share
+
+	Feeds:
+		Map
+		News
+		Reports
+		Twitter
+		Instagram
+
+	About
+	Contact
+	Login:
+		Username / Email
+		Password
+		? with Twitter / Fb / GooglePlus
+		Login as:
+			Organization
+				Team member
+			Volunteer
+
+
+
+
+Page Needs / Functionality:
+
+	Help Me:
+		Locate Pos
+		Input Address
+		Input Name
+		Input Need (list from category selectbox)
+			On need selected, list Aid locations
+
+		Map display
+			Aid:
+				Medical
+				Water
+				Food
+				Shelter
+				Volunteer
+
+	Survivors:
+		Map display
+		List of Survivors (sorted alphabetically according to focused area?)
+		Search:
+			by:
+				Name AND/OR Location (Region / Province / City / Address / find location)
+		Add Survivors
+
+	Organizations:
+		List Orgs
+		Search OR Sort :
+			by:
+				Location (Region / Province / City / Address / find location )
+				Aid Focus Type ( Food / Water / Shelter / Clothing )
+				Name
+
+		Organization:
+	            name: String
+	            active: Bool
+	            regions: Array
+	            Services: Array
+	            url: String
+	            donations: Number
+	            teams: Array
+	            workers: Number
+
+	            Donate
+	            Contact
+	            Wall
+	            	Feed
+	            	Comment
+
+	        	Team:
+	        		organization: ObjectID
+	                workers: Array
+	                region: String
+	                address: String
+	                loc: Array
+
+	                Donate
+		            Contact
+		            Wall?
+		            	Feed
+		            	Comment
+
+	Profile:
+		name: String
+	    active: Bool
+	    region: String
+	    address: String
+	    loc: Array
+	    donations: Number
+	    team?: team
+	    Org?: Org
+
+	Wall
+		Feed
+		Comment
+		Message
+
+
+	/* I have a feeling that there might be a need for an teams-based initiative and inter-team based intiatives concept. Just a note.
+
+	Reports:
+		Map Display
+		List of Reports
+
+		Report:
+			location
+			Type (again, open-ended, but we should have an intial categories selectbox to choose from)
+
+

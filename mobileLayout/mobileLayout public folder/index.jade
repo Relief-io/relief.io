@@ -1,0 +1,94 @@
+!!! 5
+html(data-ng-app="hack4good")
+  head
+
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+    // Web Fonts
+    link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Open+Sans", type="text/css")
+
+    // Core Dependencies
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+    script(src="/bower_components/underscore/underscore-min.js")
+    script(type="text/javascript", src="/bower_components/angular/angular.js")
+    script(type="text/javascript", src="/bower_components/jquery-timeago/jquery.timeago.js")
+
+    // Twitter Bootstrap
+    script(src="/bower_components/bootstrap/dist/js/bootstrap.min.js")
+    link(rel="stylesheet", href="/bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+
+    // Leaflet
+    link(rel="stylesheet", href="/vendor/leaflet/leaflet.css")
+    script(type="text/javascript", src="/vendor/leaflet/leaflet.js")
+    script(type="text/javascript", src="/vendor/leaflet-providers.js")
+    link(rel="stylesheet", href="/vendor/L.Control.MousePosition.css")
+    script(type="text/javascript", src="/vendor/L.Control.MousePosition.js")
+    link(rel="stylesheet", href="/vendor/leaflet.awesome.markers/dist/leaflet.awesome-markers.css")
+    script(type="text/javascript", src="vendor/leaflet.awesome.markers/dist/leaflet.awesome-markers.min.js")
+
+    // Firebase
+    script(type="text/javascript", src="https://cdn.firebase.com/v0/firebase.js")
+
+    // Jquery Flash Message Plugin
+    link(rel="stylesheet", href="/vendor/jquery.flash.css")
+    script(type="text/javascript", src="/vendor/jquery.flash.js")
+
+    // 3rd Party Angular Modules
+    script(type="text/javascript", src="/bower_components/angular-flash/dist/angular-flash.js")
+
+    // File Uploads
+    script(src="/bower_components/angularjs-file-upload/angular-file-upload.min.js")
+
+    // Stylesheets
+    link(rel="stylesheet", href="/style/layout.css")
+
+    // Angular JS App
+    script(src="/app.js")
+    script(src="/services.js")
+
+    // ========= Features =========
+
+    // Example
+    script(src="/feature/example/IndexController.js")
+    script(src="/feature/example/init.js")
+    link(rel="stylesheet", href="/feature/example/example.css")
+
+    // Menu
+    script(src="/feature/menu/MenuController.js")
+    link(rel="stylesheet", href="/feature/menu/menu.css")
+
+    // Aside (infobar)
+    script(src="/feature/aside/AsideController.js")
+    script(src="/feature/aside/init.js")
+    link(rel="stylesheet", href="/feature/aside/aside.css")
+
+    // Home
+    script(src="/feature/home/IndexController.js")
+    script(src="/feature/home/init.js")
+
+    // Map
+    script(src="/feature/map/IndexController.js")
+    script(src="/feature/map/init.js")
+    link(rel="stylesheet", href="/feature/map/map.css")
+
+    // Twitter
+    script(src="/feature/twitterwidget/IndexController.js")
+    script(src="/feature/twitterwidget/init.js")
+    link(rel="stylesheet", href="/feature/twitterwidget/twitterwidget.css")
+
+    // .. more features
+
+  // Pass View & Session Variables from Server Side to Angular
+  body(ng-init="user=#{JSON.stringify(user)}; config=#{JSON.stringify(config)};")
+
+    // Github Icon (fork link)
+    // .github-icon(data-ng-include="'/feature/home/github-icon.html'")
+
+    .header
+      .menu(data-ng-include="'/feature/menu/menu.html'")
+
+    .container
+
+      // Main Content Section
+      #main(data-ng-view="")
