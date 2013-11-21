@@ -1,0 +1,124 @@
+<mockup version="1.0" skin="sketch" measuredW="2054" measuredH="936" mockupW="1550" mockupH="896">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="494" y="32" w="494" h="893" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bgPattern>topOnly</bgPattern>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::PointyButton" x="551" y="221" w="-1" h="-1" measuredW="53" measuredH="40" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>center</direction>
+        <icon>HLinesIcon%7Cmedium</icon>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::RoundButton" x="869" y="212" w="57" h="55" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::SubTitle" x="690" y="224" w="-1" h="-1" measuredW="92" measuredH="35" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Relief.io</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="1015" y="30" w="1029" h="896" measuredW="450" measuredH="400" zOrder="4" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Relief.io%0Ahttp%3A//relief.io</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Canvas" x="1023" y="107" w="1014" h="70" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>10066329</color>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::LinkBar" x="1800" y="107" w="-1" h="-1" measuredW="156" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>About%2C%20Contact%2C%20Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::LinkBar" x="1252" y="126" w="-1" h="-1" measuredW="350" measuredH="31" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Home%2C%20Find%20Aid%2C%20Give%20Aid%2C%20Feeds</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::RoundButton" x="1162" y="111" w="62" h="62" measuredW="32" measuredH="32" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Map" x="1401" y="316" w="549" h="484" measuredW="252" measuredH="222" zOrder="9" locked="false" isInGroup="-1"/>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Icon" x="1768" y="632" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HomeIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Icon" x="1570" y="377" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HomeIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Icon" x="1785" y="370" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HomeIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Icon" x="1591" y="600" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SquaredPlusIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="1884" y="492" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CartIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Title" x="1162" y="191" w="-1" h="-1" measuredW="148" measuredH="54" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Relief.io</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::SubTitle" x="1401" y="274" w="549" h="-1" measuredW="52" measuredH="35" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Map</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::SubTitle" x="1162" y="275" w="194" h="-1" measuredW="79" measuredH="35" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Twitter</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="544" y="277" w="394" h="-1" measuredW="215" measuredH="271" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <text>Find%20Aid%2C%20%3D%0A_%20Help%20Me%0A_%20Survivors%0A_%20Organizations%0AGive%20Aid%2C%20%3D%0AFeeds%2C%20%3D%0AAbout%0AContact%0ALogin%2C%20%3D</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::List" x="1332" y="154" w="119" h="91" measuredW="100" measuredH="126" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <alternateRowColor>15594478</alternateRowColor>
+        <rowHeight>29</rowHeight>
+        <text>Help%20Me%0ASurvivors%0AOrganizations</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::TextArea" x="1162" y="316" w="200" h="247" measuredW="200" measuredH="140" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <backgroundAlpha>1</backgroundAlpha>
+        <text>Tweet%20tweet</text>
+        <value>0</value>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Image" x="1162" y="274" w="794" h="526" measuredW="77" measuredH="79" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

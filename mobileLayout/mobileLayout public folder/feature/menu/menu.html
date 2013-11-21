@@ -1,0 +1,53 @@
+
+<div ng-controller="MenuController">
+  <ul class="nav nav-pills">
+    <li class="logo">
+      <h1>relief.io</h1>
+    </li>
+    <li ng-class="{ active: isActive('/home')}">
+      <a href="#/home"><i class="fa fa-home"></i></a>
+    </li>
+    <li ng-class="{ active: isActive('/map')}">
+      <a href="#/map"><i class="fa fa-globe"></i></a>
+    </li>
+    <li ng-show="isActive('/map')">
+      <a ng-click="newPoi()" href="#/map"><i class="fa fa-plus"></i></a>
+    </li>
+<!-- 
+    <li class="dropdown" ng-class="{ active: isActive('/findaid')}">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="">&nbsp;Find Aid</i><span class="caret"></span></a>
+
+      <ul class="dropdown-menu">
+        <li ng-class="{ active: isActive('/helpme')}" class="red"><a href="#/help">Help me!</a></li>
+        <li ng-class="{ active: isActive('/findsurvivors')}"><a href="#/findsurvivors">Find Survivors</a></li>
+        <li ng-class="{ active: isActive('/findorganizations')}"><a href="#/findorganizations">Find Organizations</a></li>
+      </ul>
+    </li>
+
+
+    <li class="dropdown" ng-class="{ active: isActive('/giveaid')}">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="">&nbsp;Give Aid</i><span class="caret"></span></a>
+
+      <ul class="dropdown-menu">
+        <li ng-class="{ active: isActive('/donate')}"><a href="">Donate</a></li>
+        <li ng-class="{ active: isActive('/volunteer')}"><a href="">Volunteer</a></li>
+        <li ng-class="{ active: isActive('/share')}"><a href="">Share</a></li>
+      </ul>
+    </li>
+
+
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="">&nbsp;Feeds</i><span class="caret"></span></a>
+
+      <ul class="dropdown-menu">
+        <li ng-class="{ active: isActive('/twitter')}"><a href="#/twitter"><i class="icon-twitter">&nbsp;Twitter</i></a></li>
+        <li ng-class="{ active: isActive('/map')}"><a href="#/map"><i class="icon-globe">&nbsp;Map</i></a></li>
+        <li ng-class="{ active: isActive('/news')}"><a href="">News</a></li>
+      </ul> -->
+    <!--
+    <li ng-class="{ active: isActive('/map')}">
+      <a href="#/map"><i class="icon-globe"><span>&nbsp;Map</span></i></a>
+    </li>
+    -->
+  </ul>
+</div>
