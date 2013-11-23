@@ -1,6 +1,6 @@
 
 <div ng-controller="MenuController">
-  <ul class="nav nav-pills">
+  <ul class="visible-lg nav nav-pills">
     <li class="logo">
       <h1>relief.io</h1>
     </li>
@@ -50,4 +50,20 @@
     </li>
     -->
   </ul>
+
+<!-- START: Mobile (Tablet > Phone) Nav version -->
+  <nav class="hidden-lg navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <ul class="list-unstyled">
+            <li class="col-xs-4 col-sm-4 col-md-4 pull-left" ng-class="{ active: isActive('/find')}">
+              <a class="btn btn-info" href="#find">Find</a>
+            </li>
+            <li class="col-xs-4 col-sm-4 col-md-4 pull-left" ng-class="{ active: isActive('/give')}">
+              <a class="btn btn-info" href="#give">Give</a>
+            </li>
+            <li class="col-xs-4 col-sm-4 col-md-4 pull-left" ng-class="{ active: isActive('/feeds')}">
+              <a class="btn btn-info" href="#feeds">Feeds</a>
+            </li>
+        </ul>
+  </nav>
+<!-- END: Mobile (Tablet > Phone) Nav version -->
 </div>
